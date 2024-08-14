@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ricky Sasaoka's personal bio website. A 2nd year computer science student at Langara College, showcasing my resume, projects, bucket list, travel photos, and favorite music.">
+    <title>Ricky Sasaoka</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="logo">
+                <a href="./index.html">Ricky.</a>
+            </div>
+            <ul id="myNav">
+                <li><a href="#wrapper">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills")>Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleNav()"></i>
+            </div>
+        </nav>
+        <main>
+            <section class="hero" id="hero">
+                <h1>Welcome to Ricky's Personal Portfolio!</h1>
+                <p>2nd year CS Student @ Langara College | Seeking Internship Opportunities</p>
+                <ul id="contact-icons">
+                    <li><a href="https://www.linkedin.com/in/rsasaoka/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>                
+                    <li><a href="https://github.com/rickys223" aria-label="Github"><i class="fa-brands fa-square-github"></i></a></li>
+                    <li><a href="mailto:rsasaoka00@mylangara.ca" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </section>
+            <section class="about" id="about">
+                <div class="left">
+                    <h2>About</h2>
+                    <h3>
+                        Hello,<br>
+                        I'm Ricky Sasaoka
+                    </h3>
+                    <p>
+                        I'm a software engineer based in Vancouver, BC.
+                        I'm a 2nd year computer science student at Langara College.
+                        I'm interested in software engineering and web development.
+                        Currently looking for an internship.<br><br>
+    
+                        Outside of my academic and professional life, I enjoy hanging out with my friends,
+                        walking around, watching Netflix, and learning Korean language. 
+                    </p>
+                </div>
+                <img src="./images/face-pic.jpg" alt="Ricky" id="face">
+            </section>
+
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-content">
+                    <div class="skills-box">
+                        <img src="./images/skill-images/info-html.svg" alt="html" class="skills-image">
+                        <span class="skills-name">HTML</span>
+                    </div>
+                    <div class="skills-box">
+                        <img src="./images/skill-images/info-css.svg" alt="css" class="skills-image">
+                        <span class="skills-name">CSS</span>
+                    </div>
+                    <div class="skills-box">
+                        <img src="./images/skill-images/info-javascript.svg" alt="JavaScript" class="skills-image">
+                        <span class="skills-name">JavaScript</span>
+                    </div>
+                    <div class="skills-box">
+                        <img src="./images/skill-images/info-java.svg" alt="Java" class="skills-image">
+                        <span class="skills-name">Java</span>
+                    </div>
+                    <div class="skills-box">
+                        <img src="./images/skill-images/info-cpp.svg" alt="C++" class="skills-image">
+                        <span class="skills-name">C++</span>
+                    </div>
+                    <div class="skills-box">
+                        <img src="./images/skill-images/info-github.svg" alt="Github" class="skills-image">
+                        <span class="skills-name">Github</span>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="project" id="project">
+                <h2 class="title">Projects</h2>
+                <div class="project-content">
+                    <div class="project-box">
+                        <div class="project-icons">
+                            <i class="ri-keyboard-box-line"></i>
+                        </div>
+                        <h3>TYPTRIS</h3>
+                        <p>
+                            Developed an interactive typing game using HTML, CSS, and JavaScript.
+                            Implemented dynamic falling blocks with keywords that players must type to remove.
+                            Demonstrated proficiency in front-end development and game design principles.
+                        </p>
+                        <a href="https://rickys223.github.io/typtris/">View Project</a>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-icons">
+                            <i class="ri-pages-line"></i>
+                        </div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            Designed and developed a personal portfolio website using HTML, CSS, and JavaScript.
+                            Created a responsive layout with interactive elements such as image galleries, contact forms, and smooth scrolling. 
+                        </p>
+                        <a href="./index.html">View Project</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            &copy; Ricky Sasaoka 2024
+        </footer>
+
+        <a href="#wrapper" class="scrollup" id="scrollup">
+            <i class="ri-arrow-up-circle-line"></i>
+        </a>
+    </div>
+    
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+</html>
